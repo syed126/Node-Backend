@@ -21,6 +21,9 @@ const userRoutes = require('./src/routes/user.routes')
 // using as middleware
 app.use('/api/v1', userRoutes)
 
+const apiRoutes = require('./src/routes/api.routes')
+app.use('/api/v1', apiRoutes)
+
 
 
 
